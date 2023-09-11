@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: red; /* Color rojo para el título en caso de fallo */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid red;
+    background-color: #fff;
+    transition: border 0.3s, background-color 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: red;
+}
+
+button:hover {
+    border: 2px solid red;
+    color: #fff;
+}
