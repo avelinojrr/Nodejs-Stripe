@@ -10,8 +10,8 @@ export const checkoutPay = async (req, res) => {
                 price_data: {
                     currency: 'usd',
                     product_data: {
-                        name: 'Macbook Pro 2022',
-                        description: 'Macbook Pro 2022 1TB SSD 32GB RAM 16 inch display Chip M2',
+                        name: 'MacBook Pro 2022',
+                        description: 'MacBook Pro 2022 1TB SSD 32GB RAM 16 inch display Chip M2',
                         images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1664497359481'],
                     },
                     unit_amount: 120000, // Cents 1200 USD
@@ -22,8 +22,8 @@ export const checkoutPay = async (req, res) => {
                 price_data: {
                     currency: 'usd',
                     product_data: {
-                        name: 'Airpods Pro',
-                        description: 'Airpods Pro 2021 with noise cancellation and spatial audio',
+                        name: 'AirPods Pro',
+                        description: 'AirPods Pro 2021 with noise cancellation and spatial audio',
                         images: ['https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-hero-select-202011?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1604709293000'],
                     },
                     unit_amount: 45000, // Cents 450 USD

@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "mocha --require esm --timeout 10000 --exit \"src/test/*.js\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,11 @@
     "stripe": "^13.5.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "chai": "^4.3.8",
+    "chai-http": "^4.4.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "sinon": "^15.2.0"
   }
 }
